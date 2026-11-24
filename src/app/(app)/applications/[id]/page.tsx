@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 
 import { ActionPanel } from "@/components/application/action-panel";
@@ -37,7 +37,10 @@ export default async function ApplicationPage({
 }: {
   params: Promise<{ id: string }>;
 }) {
-  const user = (await getCurrentUser())!;
+  // See the dashboard for why the layout's own guard is not enough.
+  const user = await getCurrentUser();
+  if (!user) redirect("/login");
+
   const { id: rawId } = await params;
 
   // `/applications/abc` must be a 404, not a crash.

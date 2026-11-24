@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 
 import { ApplicationCard } from "@/components/application-card";
@@ -19,7 +20,12 @@ export default async function DashboardPage({
 }: {
   searchParams: Promise<{ tab?: string; q?: string }>;
 }) {
-  const user = (await getCurrentUser())!;
+  // The layout guards this route too, but layouts and pages render in parallel,
+  // so the layout's redirect cannot be relied on to run first. Without its own
+  // check this page would dereference a null user on an unauthenticated request.
+  const user = await getCurrentUser();
+  if (!user) redirect("/login");
+
   const params = await searchParams;
   const t = await getTranslations();
 
