@@ -5,7 +5,7 @@ Certificate (उत्पन्नाचा दाखला) applications. The c
 the same file through three steps. AI assistance at each step catches problems early and drafts
 the paperwork. The officer always makes the final call.
 
-- **Live demo:** _add the Vercel link here_
+- **Live demo:** https://dakhla-sahayak.vercel.app
 - **Language:** Marathi by default, with a one-click English switch for reviewers
 
 | Role | Username | Password | What they do |
