@@ -207,7 +207,9 @@ current.
 
 ### Deploying (Vercel + Neon, both free)
 
-1. Push the repository to GitHub, then **Import** it on vercel.com.
+1. Push the repository to GitHub, then **Import** it on vercel.com. `vercel.json` pins the
+   framework to Next.js; if the preset is ever set to "Other" by hand, the build runs as a static
+   site and fails looking for a `public` output directory.
 2. In the Vercel project, go to **Storage → Create Database → Neon**. This sets `DATABASE_URL`.
 3. Add `SESSION_SECRET` (any random string of 32+ characters, e.g. `openssl rand -base64 32`).
    Without it the app falls back to a public development secret and logs a warning; sessions could
