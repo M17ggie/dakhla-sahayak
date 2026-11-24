@@ -1,0 +1,27 @@
+{
+  "docType": {
+    "aadhaar": ["आधार", "आधार क्रमांक", "Aadhaar", "UIDAI", "भारतीय विशिष्ट ओळख"],
+    "ration_card": ["शिधापत्रिका", "रेशन कार्ड", "Ration Card", "अन्नधान्य"],
+    "electricity_bill": ["वीज बिल", "विद्युत देयक", "महावितरण", "MSEDCL", "Electricity Bill"],
+    "self_declaration": ["स्वयंघोषणापत्र", "स्वयं घोषणापत्र", "प्रतिज्ञापत्र", "Self Declaration", "Affidavit"],
+    "land_7_12": ["गाव नमुना", "सात बारा", "७/१२", "7/12", "Village Form", "भूमापन"],
+    "salary_slip": ["वेतन पत्रक", "पगार पत्रक", "वेतन चिठ्ठी", "Salary Slip", "Pay Slip", "Payslip"],
+    "itr": ["आयकर विवरणपत्र", "आयकर", "ITR", "Income Tax Return", "Acknowledgement Number"]
+  },
+  "fields": {
+    "name": ["धारकाचे नाव", "कर्मचाऱ्याचे नाव", "खातेदाराचे नाव", "ग्राहकाचे नाव", "अर्जदाराचे नाव", "नांव", "नाव", "Employee Name", "Name of Holder", "Consumer Name", "Name"],
+    "address": ["संपूर्ण पत्ता", "पत्ता", "रहिवासी", "मु.पो.", "मुक्काम पोस्ट", "Address", "Residing at"],
+    "monthlyNetPay": ["निव्वळ देय वेतन", "निव्वळ वेतन", "निव्वळ पगार", "निव्वळ देय", "Net Pay", "Net Salary", "Net Payable", "Take Home"],
+    "annualIncome": ["एकूण वार्षिक उत्पन्न", "वार्षिक उत्पन्न", "एकूण उत्पन्न", "Annual Income", "Total Income", "Gross Total Income"],
+    "landArea": ["लागवडीयोग्य क्षेत्र", "एकूण क्षेत्र", "क्षेत्र", "Area", "Total Area"]
+  },
+  "irrigation": {
+    "irrigated": ["बागायत", "ओलिताखालील", "ओलित", "Irrigated"],
+    "rainfed": ["जिरायत", "कोरडवाहू", "Rainfed", "Un-irrigated", "Dry"]
+  },
+  "units": {
+    "hectare": ["हेक्टर", "हे.आर.", "हे.", "Hectare", "Ha"],
+    "acre": ["एकर", "Acre"],
+    "guntha": ["गुंठे", "गुंठा", "Guntha"]
+  }
+}

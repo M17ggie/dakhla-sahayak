@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+/*
+ * Built to be read on a shared office desktop in a bright room and on a phone in
+ * a field. High contrast, generous tap targets, and a line height that gives
+ * Devanagari matras and conjuncts room to breathe.
+ */
+
+@theme {
+  --color-paper: #f7f5f0;
+  --color-ink: #1b2430;
+  --color-ink-soft: #4a5768;
+  --color-line: #ddd8cd;
+  --color-card: #ffffff;
+
+  --color-brand: #8a4a0f;
+  --color-brand-soft: #fdf3e7;
+
+  --color-ok: #15653c;
+  --color-ok-soft: #e8f4ed;
+  --color-warn: #8a5b00;
+  --color-warn-soft: #fdf3dd;
+  --color-danger: #9b1c1c;
+  --color-danger-soft: #fdeaea;
+  --color-info-soft: #eef2f7;
+
+  --font-sans: var(--font-mukta), "Noto Sans Devanagari", system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  background-color: var(--color-paper);
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  /* Devanagari needs more leading than Latin at the same size. */
+  line-height: 1.75;
+  -webkit-text-size-adjust: 100%;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+@layer components {
+  .card {
+    background-color: var(--color-card);
+    border: 1px solid var(--color-line);
+    border-radius: 0.75rem;
+  }
+
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-ink-soft);
+    margin-bottom: 0.25rem;
+  }
+
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    background-color: var(--color-card);
+    border: 1px solid var(--color-line);
+    border-radius: 0.5rem;
+    padding: 0.625rem 0.75rem;
+    font: inherit;
+    color: var(--color-ink);
+    min-height: 2.75rem;
+  }
+
+  .textarea {
+    min-height: 7rem;
+    line-height: 1.8;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .btn:disabled {
+    opacity: 0.55;
+    cursor: progress;
+  }
+
+  .btn-primary {
+    background-color: var(--color-brand);
+    color: #fff;
+  }
+
+  .btn-quiet {
+    background-color: var(--color-card);
+    border-color: var(--color-line);
+    color: var(--color-ink);
+  }
+
+  .btn-danger {
+    background-color: var(--color-card);
+    border-color: var(--color-danger);
+    color: var(--color-danger);
+  }
+
+  /* The action the assistant would take: outlined, never pre-selected. */
+  .btn-suggested {
+    box-shadow: 0 0 0 2px var(--color-brand);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.125rem 0.625rem;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.6;
+  }
+}
+
+/* The certificate and the order are meant to come out on paper. */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .print-sheet {
+    border: none;
+    box-shadow: none;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,443 @@
+{
+  "app": {
+    "name": "Dakhla Sahayak",
+    "subtitle": "Income Certificate",
+    "office": "Tehsil Office, Mulshi, Dist. Pune"
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "print": "Print",
+    "search": "Search",
+    "clear": "Clear",
+    "loading": "Working...",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "optional": "optional",
+    "notRecorded": "Not recorded"
+  },
+  "nav": {
+    "dashboard": "Queue",
+    "metrics": "Impact metrics",
+    "logout": "Log out",
+    "language": "Language",
+    "signedInAs": "{name} · {designation}"
+  },
+  "login": {
+    "title": "Log in",
+    "username": "Username",
+    "password": "Password",
+    "submit": "Log in",
+    "working": "Logging in...",
+    "failed": "That username and password do not match.",
+    "demoHeading": "Demo accounts",
+    "demoHint": "Click an account to fill in the form.",
+    "intro": "One file through all three desks of the Tehsil office."
+  },
+  "designation": {
+    "revenue_assistant": "Revenue Assistant",
+    "talathi": "Talathi",
+    "naib_tehsildar": "Naib Tehsildar",
+    "demo": "All roles (demo)"
+  },
+  "role": {
+    "clerk": "Revenue Assistant",
+    "talathi": "Talathi",
+    "officer": "Naib Tehsildar",
+    "system": "System"
+  },
+  "stage": {
+    "scrutiny": "Document scrutiny",
+    "field": "Field verification",
+    "decision": "Final decision",
+    "with_applicant": "With applicant",
+    "closed": "Closed"
+  },
+  "step": {
+    "label": "Step {number}",
+    "ofThree": "Step {number} of 3"
+  },
+  "outcome": {
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "occupation": {
+    "farmer": "Farming",
+    "salaried": "Salaried employment",
+    "labour": "Daily-wage labour",
+    "business": "Business"
+  },
+  "purpose": {
+    "scholarship": "Scholarship",
+    "ews": "Economically Weaker Section (EWS) certificate",
+    "pension": "Destitute / old-age pension",
+    "housing": "Housing scheme"
+  },
+  "docType": {
+    "aadhaar": "Aadhaar card",
+    "ration_card": "Ration card",
+    "electricity_bill": "Electricity bill",
+    "self_declaration": "Income self-declaration",
+    "land_7_12": "7/12 land extract",
+    "salary_slip": "Salary slip",
+    "itr": "Income tax return",
+    "other": "Other document"
+  },
+  "requirement": {
+    "identity": "Proof of identity",
+    "residence": "Proof of residence",
+    "declaration": "Income self-declaration",
+    "income_proof": "Proof of income"
+  },
+  "source": {
+    "setu": "Setu centre",
+    "ocr": "Read from a photograph",
+    "manual": "Entered by hand"
+  },
+  "deadline": {
+    "daysLeft": "{days} days left",
+    "daysOverdue": "{days} days overdue",
+    "paused": "Clock paused",
+    "pausedHint": "The service clock stops while the file is with the applicant.",
+    "dueOn": "Due {date}",
+    "status": {
+      "overdue": "Overdue",
+      "urgent": "Urgent",
+      "due_soon": "Due soon",
+      "on_track": "On track",
+      "paused": "Paused"
+    }
+  },
+  "action": {
+    "send_for_field": "Send for field verification",
+    "return_to_applicant": "Return to applicant",
+    "applicant_complied": "Applicant has complied",
+    "send_for_decision": "Send for decision",
+    "send_back_to_scrutiny": "Send back to scrutiny",
+    "approve": "Approve",
+    "reject": "Reject",
+    "send_for_reverification": "Send for re-verification",
+    "submitted": "Application received"
+  },
+  "error": {
+    "REMARKS_REQUIRED": "Remarks are required.",
+    "FIELD_REPORT_REQUIRED": "Fill in the field report and the verified annual income before sending this for decision.",
+    "NOT_YOUR_STEP": "This application is not at your step right now.",
+    "INVALID_ACTION": "That action is not available at this step.",
+    "STAGE_CHANGED": "This application has already moved on. Refresh the page.",
+    "NOT_FOUND": "Application not found.",
+    "NOT_AUTHENTICATED": "Your session has expired. Please log in again.",
+    "INVALID_INPUT": "Some of the information entered is missing or not valid.",
+    "OCR_FAILED": "The text in that photograph could not be read. Try a clearer photograph.",
+    "unexpected": "Something went wrong. Please try again.",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The application you are looking for does not exist, or the number is wrong."
+  },
+  "dashboard": {
+    "title": "Queue",
+    "greeting": "Namaskar, {name}",
+    "rankHint": "Ordered by deadline: the most urgent file sits on top.",
+    "stat": {
+      "pending": "Pending with me",
+      "overdue": "Overdue",
+      "dueSoon": "Due within 2 days",
+      "closedThisWeek": "Closed this week"
+    },
+    "tab": {
+      "mine": "Pending with me",
+      "withApplicant": "With applicant",
+      "closed": "Closed",
+      "all": "All applications"
+    },
+    "search": {
+      "label": "Search applications",
+      "placeholder": "Name, application number or village",
+      "hint": "Search works in either script: ganesh finds गणेश."
+    },
+    "empty": "There is nothing in this list right now.",
+    "emptySearch": "No application matches “{query}”.",
+    "findings": "{count, plural, =0 {No issues} one {# issue found} other {# issues found}}",
+    "risk": "Risk {score}"
+  },
+  "application": {
+    "title": "Application {number}",
+    "backToDashboard": "Back to queue",
+    "details": "Application details",
+    "field": {
+      "applicant": "Applicant",
+      "aadhaar": "Aadhaar (last 4 digits)",
+      "mobile": "Mobile",
+      "village": "Village",
+      "occupation": "Occupation",
+      "purpose": "Purpose of the certificate",
+      "declaredIncome": "Declared annual income",
+      "familyMembers": "Family members",
+      "submittedAt": "Submitted on",
+      "deadline": "Service deadline",
+      "verifiedIncome": "Verified annual income",
+      "verifiedFamilyMembers": "Verified family members"
+    },
+    "readOnly": "This application is at the “{stage}” step. Your role cannot act at that step.",
+    "closedNote": "This application was {outcome} on {date}.",
+    "remarks": {
+      "label": "Remarks",
+      "placeholder": "What the applicant, or the next desk, needs to be told.",
+      "requiredNote": "Remarks are required when returning or rejecting a file."
+    },
+    "actions": {
+      "heading": "Actions",
+      "aiHint": "The outlined button is the assistant's suggestion. The decision is yours.",
+      "working": "Working..."
+    }
+  },
+  "documents": {
+    "heading": "Documents",
+    "empty": "No documents have been added yet.",
+    "add": "Add / scan a document",
+    "addedOn": "{source} · {date}",
+    "nameOn": "Name: {name}",
+    "addressOn": "Address: {address}",
+    "netPay": "Monthly net pay: {amount}",
+    "annualIncome": "Annual income: {amount}",
+    "landArea": "Area: {area} ha ({kind})",
+    "irrigated": "Irrigated",
+    "rainfed": "Rain-fed",
+    "scan": {
+      "heading": "Read a document from a photograph",
+      "capture": "Take or choose a photograph",
+      "sampleHeading": "No camera? Use a sample",
+      "sample": "Use a sample {docType}",
+      "reading": "Reading the text... {percent}%",
+      "readNote": "What was read may not be accurate. Check and correct the fields below before saving.",
+      "privacy": "The reading happens on your own device. The document is not sent anywhere.",
+      "docType": "Document type",
+      "name": "Name on the document",
+      "address": "Address on the document",
+      "monthlyNetPay": "Monthly net pay",
+      "annualIncome": "Annual income",
+      "landArea": "Area (hectares)",
+      "irrigated": "Irrigated land",
+      "rawText": "Full text that was read",
+      "save": "Add to file",
+      "saving": "Saving...",
+      "saved": "Document added to the file."
+    }
+  },
+  "ai": {
+    "heading": "Assistant's check",
+    "run": "Run the check",
+    "runAgain": "Check again",
+    "running": "Checking...",
+    "notRun": "Use the button above to check this file.",
+    "lastRun": "Last checked {date}",
+    "risk": "Risk score",
+    "riskNote": "The risk score is the combined weight of what was found. It is not a decision.",
+    "noFindings": "Nothing was found wrong with the documents.",
+    "findings": "What was found",
+    "checklist": "Required documents",
+    "present": "On file",
+    "missing": "Not on file",
+    "satisfiedBy": "({docType})",
+    "suggestion": "Assistant's suggestion",
+    "confidenceLabel": "Confidence: {level}",
+    "useDraft": "Use this draft",
+    "confidence": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "severity": {
+      "high": "Serious",
+      "medium": "Worth checking",
+      "low": "Minor",
+      "info": "For information"
+    },
+    "sms": {
+      "heading": "Message to send the applicant",
+      "body": "Dakhla Sahayak: your income certificate application {number} needs the following.\n{items}\nPlease contact the Tehsil Office, Mulshi.",
+      "note": "Click “Use this draft” to put this message into the remarks."
+    },
+    "visit": {
+      "heading": "What to establish on this visit",
+      "fromFinding": "From a scrutiny finding",
+      "build": "Build the visit checklist"
+    },
+    "brief": {
+      "heading": "Brief for the decision",
+      "for": "In favour",
+      "against": "Points to consider",
+      "orderDraft": "Draft order",
+      "noneFor": "Nothing was found to record in favour.",
+      "noneAgainst": "There is nothing to weigh against this application."
+    },
+    "finding": {
+      "missing_document": {
+        "title": "{requirement} is not on file",
+        "detail": "Accepted documents: {accepts}. This has to come from the applicant."
+      },
+      "name_mismatch": {
+        "title": "The name on the {docType} does not match",
+        "detail": "Aadhaar reads “{referenceName}” while the {docType} reads “{nameOnDocument}”. Even compared across both scripts, the agreement is only {score}."
+      },
+      "name_variation": {
+        "title": "Small difference in the name on the {docType}",
+        "detail": "Aadhaar reads “{referenceName}” and the {docType} reads “{nameOnDocument}”. The spelling differs but it sounds the same. Confirm on the visit."
+      },
+      "address_outside_village": {
+        "title": "The address on the {docType} is not in the village",
+        "detail": "The application says {village}, but the address on the {docType} is “{addressOnDocument}”."
+      },
+      "income_above_declared": {
+        "title": "The income on the {docType} is above the declared income",
+        "detail": "The {docType} works out to {documentIncome} a year against the {declaredIncome} declared ({gapPercent}). One month's slip is a poor guide to a whole year, so settle this on the field visit."
+      },
+      "land_income_doubt": {
+        "title": "The land holding suggests a higher income",
+        "detail": "The 7/12 extract shows {areaHectares} ha of {kind} land, which works out to roughly {estimatedIncome} a year against the {declaredIncome} declared. This is a rough estimate, so check the actual crop and yield on the visit."
+      },
+      "labour_no_income_proof": {
+        "title": "Daily-wage work leaves no documentary proof of income",
+        "detail": "There is no salary slip or return to cross-check in this occupation, so the income has to be established on the field visit. This is not a defect in the file."
+      }
+    },
+    "findingSms": {
+      "missing_document": "{requirement} is missing.",
+      "name_mismatch": "The name on the {docType} ({nameOnDocument}) does not match Aadhaar.",
+      "address_outside_village": "The address on the {docType} is not in {village}."
+    },
+    "findingLabel": {
+      "missing_document": "Document missing",
+      "name_mismatch": "Name does not match",
+      "name_variation": "Small difference in the name",
+      "address_outside_village": "Address not in the village",
+      "income_above_declared": "Document income above declared",
+      "land_income_doubt": "Land holding suggests more income",
+      "labour_no_income_proof": "No documentary proof of income"
+    },
+    "reason": {
+      "return_for_documents": "{count, plural, one {# point} other {# points}} can be cleared by the applicant, so returning the file now is the cheap option. Returning it after a field visit means another trip for the citizen.",
+      "documents_in_order": "Every required document is on file and the names and address agree. The income will be established on the field visit.",
+      "settle_on_visit": "What was found cannot be cleared by asking the applicant for another paper; it will be settled on the field visit.",
+      "visit_complete": "Everything on the visit list is recorded and the income agrees with the declaration.",
+      "findings_for_officer": "The visit turned up {notes, plural, one {# point} other {# points}}. Send them on with the report; the Naib Tehsildar decides.",
+      "not_a_resident": "The field visit found that the applicant does not live in {village}. Residence is not established, so a certificate cannot be issued.",
+      "revised_declaration_needed": "The verified income of {verifiedIncome} is {gapPercent} above what was declared. It would be right to take a revised self-declaration from the applicant.",
+      "all_checks_passed": "Documents complete, residence established, and the verified income agrees with the declaration.",
+      "approve_with_notes": "The file can be approved, with {against, plural, one {# point} other {# points}} to note."
+    },
+    "point": {
+      "documents_complete": "All {count} required documents are on file.",
+      "documents_incomplete": "{count, plural, one {# required document is} other {# required documents are}} still missing.",
+      "residence_confirmed": "The field visit confirmed that the applicant lives in {village}.",
+      "residence_not_confirmed": "The field visit did not establish residence at the stated address.",
+      "income_verified_matches": "The verified income of {verifiedIncome} agrees with the declaration ({gapPercent}).",
+      "income_gap": "The verified income is {verifiedIncome} against {declaredIncome} declared ({gapPercent}).",
+      "field_report_on_file": "The Talathi's panchnama is on file.",
+      "overdue": "The application is {days} days past the service deadline.",
+      "open_finding": "The scrutiny finding “{finding}” has not been settled."
+    },
+    "visitItem": {
+      "confirm_residence": "Call at the house and confirm that the applicant lives in {village}.",
+      "confirm_family_size": "Check how many people are in the family. The application says {declared}.",
+      "inspect_land": "Inspect the {areaHectares} ha holding; note the crop and whether it is irrigated.",
+      "confirm_employment": "Check where the applicant works and what they are paid now.",
+      "visit_business": "Call at the business and form a view of the turnover.",
+      "ask_wage_pattern": "Ask how many days a year the work comes and at what daily rate.",
+      "ask_about_document_income": "Ask the applicant about the {documentIncome} shown on the {docType}.",
+      "ask_about_land_yield": "{areaHectares} ha works out to roughly {estimatedIncome}; record what the land actually yields.",
+      "confirm_identity": "Confirm before the panch witnesses that “{nameOnDocument}” is the same person.",
+      "confirm_address": "Ask about the address “{addressOnDocument}” shown on the document.",
+      "ask_other_earners": "Ask about the income of anyone else in the family who earns.",
+      "note_assets": "Note the house, vehicle, land and any other property.",
+      "record_panch": "Take the names and signatures of at least two local panch witnesses."
+    },
+    "income": {
+      "field_income_matches": "The verified income agrees with the declaration ({gapPercent}).",
+      "field_income_above_declared": "The verified income is {gapPercent} above the declared income.",
+      "field_income_below_declared": "The verified income is {gapPercent} below the declared income."
+    },
+    "panchnama": "A visit was made on {visitDate} to Mouje {village}, Taluka Mulshi, District Pune, and enquiries were held. The applicant {applicantName} {residence, select, confirmed {was found to be living in the said village permanently} other {was found not to be living in the said village}}. The family has {familyMembers} members in all. Sources of income: {incomeSources}. Property: {assets}. The application declares an annual income of {declaredIncome}; from the above enquiries the total annual income of the family is found to be {verifiedIncome}. This panchnama was drawn up before the panch witnesses {panchNames}.\n\n{talathiName}\nTalathi, Saja {village}",
+    "order": {
+      "approve": "The income certificate application of {applicantName}, resident of {village}, Taluka Mulshi, District Pune, is approved. From the document scrutiny and the Talathi's field verification report, the total annual income of the applicant's family ({familyMembers} members) is found to be {certifiedIncome}. Certificate number {certificateNumber} is accordingly issued on {decisionDate}.\n\n{officerName}\nNaib Tehsildar, Mulshi",
+      "reject": "The income certificate application of {applicantName}, resident of {village}, Taluka Mulshi, District Pune, is rejected. According to the Talathi's field verification report, residence at the stated address is not established. A certificate therefore cannot be issued from the jurisdiction of this office. The applicant may appeal against this order to the superior office.\n\n{officerName}\nNaib Tehsildar, Mulshi",
+      "return": "The application of {applicantName}, resident of {village}, Taluka Mulshi, District Pune, is returned for compliance. The field verification found the total annual income of the family to be {certifiedIncome}, which is {gapPercent} above the {declaredIncome} declared in the application. The application will be taken further once the applicant files a revised self-declaration in the prescribed form.\n\n{officerName}\nNaib Tehsildar, Mulshi"
+    }
+  },
+  "field": {
+    "heading": "Field verification report",
+    "intro": "Fill in what the visit found. The panchnama is drafted from it.",
+    "residenceConfirmed": "Confirmed that the applicant lives in this village",
+    "verifiedFamilyMembers": "Family members found on the visit",
+    "verifiedAnnualIncome": "Verified annual income (rupees)",
+    "incomeSources": "Sources of income",
+    "incomeSourcesPlaceholder": "e.g. farm labour, grocery shop, private job",
+    "assets": "Property and land",
+    "assetsPlaceholder": "e.g. kachha house, 0.95 ha rain-fed land, no vehicle",
+    "panchNames": "Panch witnesses",
+    "panchNamesPlaceholder": "e.g. Shri Balasaheb Jadhav, Smt Mangal Kadam",
+    "panchHint": "Record at least two local panch witnesses.",
+    "draft": "Draft the panchnama",
+    "report": "Panchnama",
+    "reportHint": "Edit the draft as needed before sending the file on.",
+    "reportPlaceholder": "Text of the panchnama",
+    "incomeComparison": "Against the declared income",
+    "save": "Save the report",
+    "saving": "Saving...",
+    "saved": "Report saved.",
+    "reportFromTalathi": "Talathi's panchnama",
+    "noReport": "No panchnama has been recorded yet."
+  },
+  "history": {
+    "heading": "History",
+    "empty": "Nothing has been recorded yet.",
+    "submitted": "Application received from the Setu centre",
+    "aiRun": "The assistant checked the documents (risk {score})",
+    "transition": "{from} → {to}",
+    "by": "{role} · {name}",
+    "bySystem": "Automatic",
+    "remarks": "Remarks: {text}",
+    "followedAi": "Decision followed the AI suggestion",
+    "divergedAi": "Decision differed from the AI suggestion (it suggested: {suggested})",
+    "aiSuggested": "AI suggestion: {suggested}"
+  },
+  "certificate": {
+    "view": "View the certificate",
+    "title": "Income Certificate",
+    "notApproved": "This application was not approved, so there is no certificate.",
+    "number": "Certificate number",
+    "date": "Date",
+    "government": "Government of Maharashtra",
+    "body": "This is to certify that the total annual income of {applicantName}, resident of {village}, Taluka {taluka}, District {district}, and family ({familyMembers} members in all), from all sources in the previous financial year, is {certifiedIncome}.\n\nThis certificate is issued for the purpose of {purpose}, on the basis of the documents filed by the applicant and the field verification report of the Talathi, Saja {village}.",
+    "purposeLine": "Purpose",
+    "signature": "Naib Tehsildar",
+    "validity": "This certificate is valid for the current financial year from the date of issue.",
+    "backToApplication": "Back to the application"
+  },
+  "metrics": {
+    "title": "Impact metrics",
+    "intro": "These figures are computed from this system's own records. In a pilot they should be compared against the figures in the current registers for the same months.",
+    "total": "Applications in all",
+    "closed": "Decided",
+    "avgDays": "Average days to a decision",
+    "withinSla": "Decided within the deadline",
+    "returnRate": "Returned to the applicant",
+    "rework": "Rework",
+    "aiAgreement": "Agreement with the assistant",
+    "days": "{days} days",
+    "help": {
+      "avgDays": "From the day the application arrives to the day it is decided. This is the citizen's actual wait.",
+      "withinSla": "The share decided inside the Right to Public Services deadline.",
+      "returnRate": "The share of applications that went back to the applicant at least once. A return at scrutiny is cheap; a return after the field visit is expensive.",
+      "rework": "Files sent back to scrutiny or out for re-verification. This shows the quality of the first pass.",
+      "aiAgreement": "Of the actions taken with a suggestion on screen, how often it was accepted. Too low means the rules need fixing; 100% could mean the suggestion is being accepted without thought."
+    },
+    "returnsByStage": "Where the returns happened",
+    "overrides": "Decisions that differed from the assistant",
+    "overrideRow": "Application {number}: suggested {suggested}, action taken {action}",
+    "noOverrides": "No decision has gone against the assistant yet.",
+    "noData": "There are not enough records yet for these figures."
+  }
+}

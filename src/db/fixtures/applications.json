@@ -1,0 +1,648 @@
+[
+  {
+    "applicationNumber": "001041",
+    "applicantName": "सुनीता रमेश जाधव",
+    "applicantNameEn": "Sunita Ramesh Jadhav",
+    "aadhaarLast4": "4821",
+    "mobile": "9881042317",
+    "village": "पिरंगुट",
+    "villageEn": "Pirangut",
+    "occupation": "labour",
+    "purpose": "scholarship",
+    "declaredAnnualIncome": 48000,
+    "declaredFamilyMembers": 4,
+    "submittedDaysAgo": 16.5,
+    "stage": "scrutiny",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "सुनीता रमेश जाधव", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "सुनीता रमेश जाधव",
+        "addressOnDocument": "मु.पो. पिरंगुट, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "सुनीता रमेश जाधव",
+        "annualIncome": 48000,
+        "source": "setu"
+      }
+    ],
+    "history": [{ "action": "submitted", "dayOffset": 0 }]
+  },
+  {
+    "applicationNumber": "001043",
+    "applicantName": "गणेश बाळू पाटील",
+    "applicantNameEn": "Ganesh Balu Patil",
+    "aadhaarLast4": "7310",
+    "mobile": "9922178054",
+    "village": "घोटावडे",
+    "villageEn": "Ghotawade",
+    "occupation": "farmer",
+    "purpose": "ews",
+    "declaredAnnualIncome": 95000,
+    "declaredFamilyMembers": 6,
+    "submittedDaysAgo": 13,
+    "stage": "scrutiny",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "गणेश बाळू पाटील", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "गणेश बाळू पाटील",
+        "addressOnDocument": "मु.पो. घोटावडे, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "गणेश बाळू पाटील",
+        "annualIncome": 95000,
+        "source": "setu"
+      },
+      {
+        "docType": "land_7_12",
+        "nameOnDocument": "गणपत बाळू पाटील",
+        "addressOnDocument": "मौजे घोटावडे, ता. मुळशी",
+        "landAreaCentiHectares": 320,
+        "irrigated": true,
+        "source": "setu"
+      }
+    ],
+    "history": [{ "action": "submitted", "dayOffset": 0 }]
+  },
+  {
+    "applicationNumber": "001044",
+    "applicantName": "अनिल दत्तात्रय शिंदे",
+    "applicantNameEn": "Anil Dattatray Shinde",
+    "aadhaarLast4": "2096",
+    "mobile": "9763310842",
+    "village": "लवळे",
+    "villageEn": "Lavale",
+    "occupation": "salaried",
+    "purpose": "housing",
+    "declaredAnnualIncome": 120000,
+    "declaredFamilyMembers": 5,
+    "submittedDaysAgo": 6,
+    "stage": "scrutiny",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "अनिल दत्तात्रय शिंदे", "source": "setu" },
+      {
+        "docType": "electricity_bill",
+        "nameOnDocument": "अनिल दत्तात्रय शिंदे",
+        "addressOnDocument": "मु.पो. लवळे, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "अनिल दत्तात्रय शिंदे",
+        "annualIncome": 120000,
+        "source": "setu"
+      },
+      {
+        "docType": "salary_slip",
+        "nameOnDocument": "अनिल दत्तात्रय शिंदे",
+        "monthlyNetPay": 22000,
+        "source": "setu"
+      }
+    ],
+    "history": [{ "action": "submitted", "dayOffset": 0 }]
+  },
+  {
+    "applicationNumber": "001045",
+    "applicantName": "रेखा संजय मोरे",
+    "applicantNameEn": "Rekha Sanjay More",
+    "aadhaarLast4": "5544",
+    "mobile": "8805521190",
+    "village": "भूकुम",
+    "villageEn": "Bhukum",
+    "occupation": "labour",
+    "purpose": "pension",
+    "declaredAnnualIncome": 36000,
+    "declaredFamilyMembers": 3,
+    "submittedDaysAgo": 3,
+    "stage": "scrutiny",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "रेखा संजय मोरे", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "रेखा संजय मोरे",
+        "addressOnDocument": "मु.पो. भूकुम, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      }
+    ],
+    "history": [{ "action": "submitted", "dayOffset": 0 }]
+  },
+  {
+    "applicationNumber": "001038",
+    "applicantName": "महेश विठ्ठल मोरे",
+    "applicantNameEn": "Mahesh Vitthal More",
+    "aadhaarLast4": "6172",
+    "mobile": "9011447268",
+    "village": "पौड",
+    "villageEn": "Paud",
+    "occupation": "farmer",
+    "purpose": "scholarship",
+    "declaredAnnualIncome": 65000,
+    "declaredFamilyMembers": 5,
+    "submittedDaysAgo": 8,
+    "stage": "field",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "महेश विठ्ठल मोरे", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "महेश विठ्ठल मोरे",
+        "addressOnDocument": "मु.पो. पौड, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "महेश विठ्ठल मोरे",
+        "annualIncome": 65000,
+        "source": "setu"
+      },
+      {
+        "docType": "land_7_12",
+        "nameOnDocument": "महेश विठ्ठल मोरे",
+        "addressOnDocument": "मौजे पौड, ता. मुळशी",
+        "landAreaCentiHectares": 110,
+        "irrigated": false,
+        "source": "setu"
+      }
+    ],
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 2,
+        "aiSuggestedAction": "send_for_field"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001036",
+    "applicantName": "शबाना इक्बाल शेख",
+    "applicantNameEn": "Shabana Iqbal Shaikh",
+    "aadhaarLast4": "9038",
+    "mobile": "9595038871",
+    "village": "हिंजवडी",
+    "villageEn": "Hinjawadi",
+    "occupation": "business",
+    "purpose": "ews",
+    "declaredAnnualIncome": 180000,
+    "declaredFamilyMembers": 4,
+    "submittedDaysAgo": 10,
+    "stage": "field",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "शबाना इक्बाल शेख", "source": "setu" },
+      {
+        "docType": "electricity_bill",
+        "nameOnDocument": "शबाना इक्बाल शेख",
+        "addressOnDocument": "मु.पो. हिंजवडी, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "शबाना इक्बाल शेख",
+        "annualIncome": 180000,
+        "source": "setu"
+      },
+      {
+        "docType": "itr",
+        "nameOnDocument": "शबाना इक्बाल शेख",
+        "annualIncome": 195000,
+        "source": "setu"
+      }
+    ],
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 3,
+        "aiSuggestedAction": "send_for_field"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001031",
+    "applicantName": "प्रकाश नामदेव गायकवाड",
+    "applicantNameEn": "Prakash Namdev Gaikwad",
+    "aadhaarLast4": "1287",
+    "mobile": "9850117436",
+    "village": "कासारसाई",
+    "villageEn": "Kasarsai",
+    "occupation": "labour",
+    "purpose": "pension",
+    "declaredAnnualIncome": 21000,
+    "declaredFamilyMembers": 2,
+    "submittedDaysAgo": 16.5,
+    "stage": "decision",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "प्रकाश नामदेव गायकवाड", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "प्रकाश नामदेव गायकवाड",
+        "addressOnDocument": "मु.पो. कासारसाई, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "प्रकाश नामदेव गायकवाड",
+        "annualIncome": 21000,
+        "source": "setu"
+      }
+    ],
+    "field": {
+      "dayOffset": 9,
+      "residenceConfirmed": true,
+      "verifiedFamilyMembers": 2,
+      "verifiedAnnualIncome": 21000,
+      "reportKey": "p001031"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 4,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 9,
+        "aiSuggestedAction": "send_for_decision"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001034",
+    "applicantName": "वैशाली सुभाष कुलकर्णी",
+    "applicantNameEn": "Vaishali Subhash Kulkarni",
+    "aadhaarLast4": "3465",
+    "mobile": "9168734502",
+    "village": "उरवडे",
+    "villageEn": "Urawade",
+    "occupation": "salaried",
+    "purpose": "scholarship",
+    "declaredAnnualIncome": 125000,
+    "declaredFamilyMembers": 4,
+    "submittedDaysAgo": 11,
+    "stage": "decision",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "वैशाली सुभाष कुलकर्णी", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "वैशाली सुभाष कुलकर्णी",
+        "addressOnDocument": "मु.पो. उरवडे, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "वैशाली सुभाष कुलकर्णी",
+        "annualIncome": 125000,
+        "source": "setu"
+      },
+      {
+        "docType": "salary_slip",
+        "nameOnDocument": "वैशाली सुभाष कुलकर्णी",
+        "monthlyNetPay": 10400,
+        "source": "setu"
+      }
+    ],
+    "field": {
+      "dayOffset": 7,
+      "residenceConfirmed": true,
+      "verifiedFamilyMembers": 4,
+      "verifiedAnnualIncome": 255000,
+      "reportKey": "p001034"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 2,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 7,
+        "aiSuggestedAction": "send_for_decision"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001029",
+    "applicantName": "दत्ता शिवाजी कांबळे",
+    "applicantNameEn": "Datta Shivaji Kamble",
+    "aadhaarLast4": "8853",
+    "mobile": "9657208914",
+    "village": "माले",
+    "villageEn": "Male",
+    "occupation": "labour",
+    "purpose": "pension",
+    "declaredAnnualIncome": 30000,
+    "declaredFamilyMembers": 3,
+    "submittedDaysAgo": 12,
+    "stage": "with_applicant",
+    "pausedDaysAgo": 7,
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "दत्ता शिवाजी कांबळे", "source": "setu" },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "दत्ता शिवाजी कांबळे",
+        "annualIncome": 30000,
+        "source": "setu"
+      }
+    ],
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "return_to_applicant",
+        "role": "clerk",
+        "dayOffset": 5,
+        "remarksKey": "r001029",
+        "aiSuggestedAction": "return_to_applicant"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001025",
+    "applicantName": "आशा दिलीप कदम",
+    "applicantNameEn": "Asha Dilip Kadam",
+    "aadhaarLast4": "4107",
+    "mobile": "9975441062",
+    "village": "घोटावडे",
+    "villageEn": "Ghotawade",
+    "occupation": "farmer",
+    "purpose": "housing",
+    "declaredAnnualIncome": 58000,
+    "declaredFamilyMembers": 4,
+    "submittedDaysAgo": 14,
+    "stage": "closed",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "आशा दिलीप कदम", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "आशा दिलीप कदम",
+        "addressOnDocument": "मु.पो. घोटावडे, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "आशा दिलीप कदम",
+        "annualIncome": 58000,
+        "source": "setu"
+      },
+      {
+        "docType": "land_7_12",
+        "nameOnDocument": "आशा दिलीप कदम",
+        "addressOnDocument": "मौजे घोटावडे, ता. मुळशी",
+        "landAreaCentiHectares": 95,
+        "irrigated": false,
+        "source": "setu"
+      }
+    ],
+    "field": {
+      "dayOffset": 7,
+      "residenceConfirmed": true,
+      "verifiedFamilyMembers": 4,
+      "verifiedAnnualIncome": 58000,
+      "reportKey": "p001025"
+    },
+    "decision": {
+      "outcome": "approved",
+      "dayOffset": 11,
+      "certifiedAnnualIncome": 58000,
+      "aiSuggestedAction": "approve"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 2,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 7,
+        "aiSuggestedAction": "send_for_decision"
+      },
+      { "action": "approve", "role": "officer", "dayOffset": 11, "aiSuggestedAction": "approve" }
+    ]
+  },
+  {
+    "applicationNumber": "001022",
+    "applicantName": "सदाशिव तुकाराम जगताप",
+    "applicantNameEn": "Sadashiv Tukaram Jagtap",
+    "aadhaarLast4": "7729",
+    "mobile": "9423317785",
+    "village": "पौड",
+    "villageEn": "Paud",
+    "occupation": "business",
+    "purpose": "ews",
+    "declaredAnnualIncome": 95000,
+    "declaredFamilyMembers": 5,
+    "submittedDaysAgo": 31,
+    "stage": "closed",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "सदाशिव तुकाराम जगताप", "source": "setu" },
+      {
+        "docType": "electricity_bill",
+        "nameOnDocument": "सदाशिव तुकाराम जगताप",
+        "addressOnDocument": "मु.पो. पौड, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "सदाशिव तुकाराम जगताप",
+        "annualIncome": 95000,
+        "source": "setu"
+      },
+      {
+        "docType": "itr",
+        "nameOnDocument": "सदाशिव तुकाराम जगताप",
+        "annualIncome": 108000,
+        "source": "setu"
+      }
+    ],
+    "field": {
+      "dayOffset": 6,
+      "residenceConfirmed": true,
+      "verifiedFamilyMembers": 5,
+      "verifiedAnnualIncome": 125000,
+      "reportKey": "p001022"
+    },
+    "decision": {
+      "outcome": "approved",
+      "dayOffset": 11,
+      "certifiedAnnualIncome": 125000,
+      "remarksKey": "d001022",
+      "aiSuggestedAction": "return_to_applicant"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 2,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 6,
+        "aiSuggestedAction": "send_for_decision"
+      },
+      {
+        "action": "approve",
+        "role": "officer",
+        "dayOffset": 11,
+        "remarksKey": "d001022",
+        "aiSuggestedAction": "return_to_applicant"
+      }
+    ]
+  },
+  {
+    "applicationNumber": "001020",
+    "applicantName": "कविता अशोक भोसले",
+    "applicantNameEn": "Kavita Ashok Bhosale",
+    "aadhaarLast4": "6630",
+    "mobile": "9552066301",
+    "village": "लवळे",
+    "villageEn": "Lavale",
+    "occupation": "labour",
+    "purpose": "scholarship",
+    "declaredAnnualIncome": 42000,
+    "declaredFamilyMembers": 4,
+    "submittedDaysAgo": 34,
+    "stage": "closed",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "कविता अशोक भोसले", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "कविता अशोक भोसले",
+        "addressOnDocument": "मु.पो. लवळे, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "कविता अशोक भोसले",
+        "annualIncome": 42000,
+        "source": "manual"
+      }
+    ],
+    "field": {
+      "dayOffset": 10,
+      "residenceConfirmed": true,
+      "verifiedFamilyMembers": 4,
+      "verifiedAnnualIncome": 42000,
+      "reportKey": "p001020"
+    },
+    "decision": {
+      "outcome": "approved",
+      "dayOffset": 13,
+      "certifiedAnnualIncome": 42000,
+      "aiSuggestedAction": "approve"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "return_to_applicant",
+        "role": "clerk",
+        "dayOffset": 1,
+        "remarksKey": "r001020",
+        "aiSuggestedAction": "return_to_applicant"
+      },
+      { "action": "applicant_complied", "role": "clerk", "dayOffset": 5 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 5,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 10,
+        "aiSuggestedAction": "send_for_decision"
+      },
+      { "action": "approve", "role": "officer", "dayOffset": 13, "aiSuggestedAction": "approve" }
+    ]
+  },
+  {
+    "applicationNumber": "001018",
+    "applicantName": "रमेश बाबूराव थोरात",
+    "applicantNameEn": "Ramesh Baburao Thorat",
+    "aadhaarLast4": "2215",
+    "mobile": "9764221508",
+    "village": "भूकुम",
+    "villageEn": "Bhukum",
+    "occupation": "salaried",
+    "purpose": "ews",
+    "declaredAnnualIncome": 88000,
+    "declaredFamilyMembers": 3,
+    "submittedDaysAgo": 22,
+    "stage": "closed",
+    "documents": [
+      { "docType": "aadhaar", "nameOnDocument": "रमेश बाबूराव थोरात", "source": "setu" },
+      {
+        "docType": "ration_card",
+        "nameOnDocument": "रमेश बाबूराव थोरात",
+        "addressOnDocument": "मु.पो. भूकुम, ता. मुळशी, जि. पुणे",
+        "source": "setu"
+      },
+      {
+        "docType": "self_declaration",
+        "nameOnDocument": "रमेश बाबूराव थोरात",
+        "annualIncome": 88000,
+        "source": "setu"
+      },
+      {
+        "docType": "salary_slip",
+        "nameOnDocument": "रमेश बाबूराव थोरात",
+        "monthlyNetPay": 7400,
+        "source": "setu"
+      }
+    ],
+    "field": {
+      "dayOffset": 8,
+      "residenceConfirmed": false,
+      "verifiedFamilyMembers": 3,
+      "verifiedAnnualIncome": 88000,
+      "reportKey": "p001018"
+    },
+    "decision": {
+      "outcome": "rejected",
+      "dayOffset": 12,
+      "remarksKey": "d001018",
+      "aiSuggestedAction": "reject"
+    },
+    "history": [
+      { "action": "submitted", "dayOffset": 0 },
+      {
+        "action": "send_for_field",
+        "role": "clerk",
+        "dayOffset": 3,
+        "aiSuggestedAction": "send_for_field"
+      },
+      {
+        "action": "send_for_decision",
+        "role": "talathi",
+        "dayOffset": 8,
+        "aiSuggestedAction": "send_for_decision"
+      },
+      {
+        "action": "reject",
+        "role": "officer",
+        "dayOffset": 12,
+        "remarksKey": "d001018",
+        "aiSuggestedAction": "reject"
+      }
+    ]
+  }
+]

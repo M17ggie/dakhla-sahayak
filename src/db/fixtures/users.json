@@ -1,0 +1,34 @@
+[
+  {
+    "username": "clerk",
+    "password": "Clerk@123",
+    "fullName": "सुरेश दिनकर पवार",
+    "fullNameEn": "Suresh Dinkar Pawar",
+    "designation": "revenue_assistant",
+    "roles": ["clerk"]
+  },
+  {
+    "username": "talathi",
+    "password": "Talathi@123",
+    "fullName": "विजय अंकुश सावंत",
+    "fullNameEn": "Vijay Ankush Sawant",
+    "designation": "talathi",
+    "roles": ["talathi"]
+  },
+  {
+    "username": "officer",
+    "password": "Officer@123",
+    "fullName": "अश्विनी कदम",
+    "fullNameEn": "Ashwini Kadam",
+    "designation": "naib_tehsildar",
+    "roles": ["officer"]
+  },
+  {
+    "username": "demo",
+    "password": "Demo@123",
+    "fullName": "प्रात्यक्षिक वापरकर्ता",
+    "fullNameEn": "Demo User",
+    "designation": "demo",
+    "roles": ["clerk", "talathi", "officer"]
+  }
+]
